@@ -1,14 +1,14 @@
 import random
-def high(t):
-    if t>45:
-        print("alarm is turned ON")
+def high(tre):
+    if tre>45:
+        print("alarm ON")
     else:
-        print("alarm is turned OFF")
+        print("alarm  OFF")
 
 while(1):
-    temperature=random.randint(25,100)
-    humidity=random.randint(0,100)
-    print(temperature)
-    print(humidity)
-    high(temperature)
+    tre=random.randint(25,100)
+    hum=random.randint(0,100)
+    print(tre)
+    print(hum)
+    high(tre)
 print("\n")
