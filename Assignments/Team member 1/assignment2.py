@@ -1,9 +1,9 @@
 import random
-def high(t):
-    if t>45:
-        print("alarm is turned ON")
+def high(temp):
+    if temp>45:
+        print("ON the alarm")
     else:
-        print("alarm is turned OFF")
+        print("OFF the alarm")
 
 while(1):
     temperature=random.randint(25,100)
